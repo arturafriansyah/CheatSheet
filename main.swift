@@ -982,7 +982,7 @@ enum BackupManager {
     private static let fileDf: DateFormatter = {
         let f = DateFormatter()
         f.locale = Locale(identifier: "en_US_POSIX")
-        f.dateFormat = "yyyyMMdd-HHmmss"
+        f.dateFormat = "ddMMyy-HHmm"
         return f
     }()
 
